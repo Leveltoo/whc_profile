@@ -10,7 +10,7 @@ describe("metadata routes", () => {
 
     expect(result.rules).toBeDefined();
     expect(result.sitemap).toBe("https://whc-profile.vercel.app/sitemap.xml");
-    expect(result.host).toBe("https://whc-profile.vercel.app");
+    expect(result.host).toBe("whc-profile.vercel.app");
   });
 
   it("builds a sitemap that exposes primary pages and project detail routes", () => {
