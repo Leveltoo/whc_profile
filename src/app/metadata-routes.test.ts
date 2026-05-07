@@ -34,6 +34,6 @@ describe("metadata routes", () => {
 
     expect(result.name).toContain("王华琛");
     expect(result.start_url).toBe("/");
-    expect(result.icons?.[0]?.src).toBe("/favicon.ico");
+    expect(result.icons).toBeUndefined();
   });
 });

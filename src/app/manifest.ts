@@ -7,15 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "高级前端工程师 / 全栈偏前端个人站，包含项目案例与在线简历。",
     start_url: "/",
     display: "standalone",
-    background_color: "#0b0e13",
-    theme_color: "#0b0e13",
+    background_color: "#f3efe6",
+    theme_color: "#111111",
     lang: "zh-CN",
-    icons: [
-      {
-        src: "/favicon.ico",
-        sizes: "any",
-        type: "image/x-icon",
-      },
-    ],
   };
 }

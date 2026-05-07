@@ -25,6 +25,7 @@ describe("metadata helpers", () => {
     expect(metadata.metadataBase?.toString()).toBe(
       "https://whc-profile.vercel.app/",
     );
+    expect(metadata.openGraph?.siteName).toBe("王华琛简历站");
   });
 
   it("includes webmaster verification fields when env values are provided", () => {
